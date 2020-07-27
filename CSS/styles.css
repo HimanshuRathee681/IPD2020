@@ -1,0 +1,350 @@
+*{
+	box-sizing: border-box;
+
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+
+
+
+				.row{
+				width: 100%;
+			}
+			@media (min-width: 678px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+   
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .dropdown{
+  	display: none !important;
+  }
+  .heading{
+  	font-size: 4vw;
+  }
+  
+}
+
+
+
+
+@media (max-width: 677px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  aside{
+  	text-align: center;
+  	padding: 0 0 0 0 !important;
+  }
+  .courses{
+  	text-align: center;
+  }
+  #logo{
+  	display: none;
+  }
+  #list{
+  	display: none;
+  }
+  .home{
+  	margin-top: 20px;
+  }
+  section{
+  	margin-top: 20px;
+  }
+  .heading{
+  
+  	font-size: 10vw ;
+  }
+  .
+
+}
+
+
+
+
+		
+		
+			body {
+				color: #666666;
+				background-color: #f9f8f6;
+				background-image: url("../images/dark-wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			#wrapper {
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #ffffff;}
+			header {
+				height: 160px;
+				
+				}
+			h1 {
+				font-family: 'Lobster', cursive;
+				width: 940px;
+				margin: 0px;
+				position: relative;
+				top: 25px;
+				left: 12px;
+				font-size: 64px;
+
+
+			}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #aeaca8;
+				height: 30px;}
+			nav ul {
+				margin: 0px auto;
+				padding: 5px 0 5px 0;
+
+			}
+			nav li {
+				float: left;
+				list-style-type: none;
+				margin-left: auto;
+				margin-right: auto;
+				align-content: center;
+
+				text-align: center;
+			}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: left;
+			}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+
+				margin-top: 20px;
+			}
+			article >figure {
+				float: left;
+				min-width: 150px;
+				min-height: 110px;
+
+				padding: 5px;
+				margin: 20px;
+				border: 1px solid #eeeeee;}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 230px;
+				float: left;
+				padding: 0px 0px 0px 20px;
+				border-left: 1px solid #eeeeee;
+			}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h1, h2, h3 {
+				font-weight: normal;}
+			h2 {
+				margin: 10px 0px 5px 0px;
+				padding: 0px;}
+			h3 {
+				margin: 0px 0px 10px 0px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 20px;}
+			figcaption{
+				text-align: center;
+			}	
+			header div{
+				height:130px;
+				color: #FFFFFF;
+				
+				background-color: #271F12;
+				background-color: #23211D;
+			}
+			header div img{
+				float: left;
+				position: relative;
+				left: 5px;
+				top: 5px;
+			}
+			div p#header-p{
+				position: relative;
+				left:18px;
+				top:28px;
+			}
+			footer{
+				text-align: center;
+			}
+			div .home figure{;
+				margin-left: auto;
+				margin-right: auto;
+				align-content: center;
+				
+			}
+			div .home img{
+				border: 2px solid black;
+			}
+			div .home{
+				border: 1px solid #eeeeee;
+				text-align: center;
+
+			}
+			#catering{
+				text-align: center;
+				font-size: 150%;
+			}
+			.container{
+				padding: 15px 20px;
+				text-align: center;
+				border: 1px solid #eeeeee;
+
+			}
+			.image img{
+				border: 1px solid #eeeeee;
+				padding: 5px;
+
+
+				align-content: center;
+				height: 170px;
+				width: 170px;
+			}
+			iframe{
+				padding-top: 15px;
+			}
+			.dropbtn {
+  background-color: #aeaca8;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+	height: 50px;
+	text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ae
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  height: 300px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.dropdown-content .current{
+	background-color: #f1f1f1
+
+}
+
+
+
+
+		
+		
